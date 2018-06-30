@@ -17,3 +17,11 @@ NOTE: 其實我 732. 是沒解出來的，只是 copy/paste 上面的答案。
 寫完 773.sliding puzzle 學到
 7. 儘可能的運用題目的條件。像是 773.SlidingPuzzle 非常的難，可是題目跟你說 input matrix 就是一個 2x3 的 array 也不會改變大小和可能的值的集合，你就會想到暴力的把它解開就可以了...整個問題的難度就可以下降很多。甚至因為知道全部的解只有 6! 這麼多，如果在意 run time 的人甚至可以把 hash 直接嵌入到 code 中省去算 hash table 的時間。
 
+
+## 2018.06.30
+寫玩 not_leet_code/LikeNumber 學到
+8. 有些問題是其他"經典問題"的變形。譬如這題就是 permutation 遞迴算法的變形。
+
+寫完 32.LongestValidParentheses 學到
+9. 有些問題需要"深入"的了解問題本身，如當問題是回答"連續"的長度，必然會處理到哪時候重設這個長度的 counter，哪時候要繼續繼承之前的 counter。
+另外自己產生 cases 驗證，在實戰中是非常重要的一件事情。這一題我沒特別這麼做，submit 六次才成功過關。
