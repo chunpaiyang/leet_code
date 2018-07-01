@@ -19,9 +19,14 @@ NOTE: 其實我 732. 是沒解出來的，只是 copy/paste 上面的答案。
 
 
 ## 2018.06.30
-寫玩 not_leet_code/LikeNumber 學到
+寫完 not_leet_code/LikeNumber 學到
 8. 有些問題是其他"經典問題"的變形。譬如這題就是 permutation 遞迴算法的變形。
 
 寫完 32.LongestValidParentheses 學到
 9. 有些問題需要"深入"的了解問題本身，如當問題是回答"連續"的長度，必然會處理到哪時候重設這個長度的 counter，哪時候要繼續繼承之前的 counter。
 另外自己產生 cases 驗證，在實戰中是非常重要的一件事情。這一題我沒特別這麼做，submit 六次才成功過關。
+
+## 2018.07.01
+寫完 778.SwiminRisingWater 學到
+10. 這題一樣用到很基本的解題方法，先用小的 example 如 3x3 or 4x4 的來想。然後一樣會跑出某些想法，然後就會發現這些想法所需要的資料結構和演算法。
+11. 發現 heap min 為 std library of python/c++。若題目要全盤找最小，就可以考慮用它。
